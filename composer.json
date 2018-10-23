@@ -1,0 +1,40 @@
+{
+    "name": "ournameismud/cga-search",
+    "description": "Context and site-specific search",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "cga search"
+    ],
+    "support": {
+        "docs": "https://github.com/ournameismud/cga-search/blob/master/README.md",
+        "issues": "https://github.com/ournameismud/cga-search/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "@cole007",
+            "homepage": "http://ournameismud.co.uk/"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1"
+    },
+    "autoload": {
+        "psr-4": {
+          "ournameismud\\cgasearch\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "CGA Search",
+        "handle": "cga-search",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/ournameismud/cga-search/master/CHANGELOG.md",
+        "class": "ournameismud\\cgasearch\\CgaSearch"
+    }
+}
